@@ -119,7 +119,7 @@ p{
 }
 
 aside{
-    padding: 0em 0.7em;
+    padding: 1em 0.7em;
 }
 
 aside section.secondary h2{
@@ -148,6 +148,7 @@ footer p{
 
     aside{
     margin: 0em;
+    padding-top: 0;
     }
 
     p, figcaption {
