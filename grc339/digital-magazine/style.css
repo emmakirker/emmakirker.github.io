@@ -418,3 +418,28 @@ section.subscribe button{
             flex: 0 0 4em;
         }
 }
+
+@media screen and (prefers-color-scheme: light) {
+
+    div.container, div.home-container, body {
+    background-color: rgb(254, 251, 233);
+    }
+
+    section.main h2, section.secondary h2, section.tertiary h2, h2.white, p, h3, section.personal-info ul li, section.newsletter ul li{
+	color: rgb(31, 31, 31);
+    }
+
+    figcaption{
+        color: rgb(125, 125, 125);
+    }
+
+    h1{
+        background-image: url("Threshold_Logo_Light.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    h1 img{
+        opacity: 0;
+    }
+}
